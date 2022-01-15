@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FragmenPenyakit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hsalf.smilerating.SmileRating
+            android:id="@+id/srating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artikel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/textComment"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/srating"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="?attr/colorButtonNormal"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/komentar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textComment"
+            android:layout_alignStart="@+id/textComment"
+            android:layout_below="@+id/textComment"
+            android:layout_marginTop="41dp"
+            android:ems="10"
+            android:hint="Tulis Komentar Disini ..."
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/komentar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimary"
+            android:text="Kirim Komentar"
+            android:textColor="@color/Putih" />
+
+
+        <TextView
+            android:id="@+id/artikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Loading.."
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</ScrollView>

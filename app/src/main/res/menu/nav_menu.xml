@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/home"
+            android:title="Beranda" />
+
+        <item
+            android:id="@+id/navpp"
+            android:title="Penanganan Pertama" />
+
+        <item
+            android:id="@+id/navpencegahan"
+            android:title="Pencegahan" />
+
+        <item
+            android:id="@+id/navpengobatan"
+            android:title="Pengobatan" />
+
+    </group>
+
+    <item
+        android:id="@+id/navdev"
+        android:title="About Developer" />
+
+
+</menu>

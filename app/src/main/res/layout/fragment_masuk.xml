@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="id.sch.smktelkom_mlg.afinal.xirpl2071330.healthycare.masukFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textdatang"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="Selamat Datang"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/texthealthy"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="100dp"
+        android:src="@drawable/logoapp" />
+
+    <TextView
+        android:id="@+id/textsolusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagelogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:paddingTop="280dp"
+        android:text="Cari solusi untuk menyelesaikan permasalahan penyakit pada diri Anda"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/texthealthy"
+        android:layout_width="wrap_content"
+        android:layout_height="359dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="100dp"
+        android:text="di Healthy Care"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
